@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Document Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>C++ Documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Hello_World" class="nav-link">Hello World</a>
+        <a href="#Variable" class="nav-link">Variable</a>
+        <a href="#Data_types" class="nav-link">Data types</a>
+        <a href="#Reference" class="nav-link">Reference</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>C++ is a general-purpose programming language that was developed as an enhancement of the C language to include
+            object-oriented paradigm. It is an imperative and a compiled language.</p>
+        </section>
+
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <p>To get started with writing C++, open DevC++ and write your first C++ code "Hello World" :</p>
+            <code>
+                void main(){<br>
+                    cout<<"Hello World!";<br>
+                    return 0;<br>
+                }<br>
+
+            </code>
+        </section>
+
+        <section class="main-section" id="Variable">
+            <header>Variable</header>
+            <p>You can declare a variable like this:</p>
+            <code>
+                int x = 10;
+            </code>
+            <p>or like this:</p>
+            <code>
+                int x;<br>
+                x = 10;
+            </code>
+        </section>
+
+        <section class="main-section" id="Data_types">
+            <header>Data types</header>
+            <p>C++ has many data types like:</p>
+                <ul>
+                    <li>Integer</li>
+                    <li>Floating point number</li>
+                    <li>Character</li>
+                    <li>Void</li>
+                    <li>String</li>
+                </ul>
+            <p>For example:</p>
+            <code>
+                int x = 10;<br>
+                printf("%d",x);
+            </code>
+            <p>We can see the output of this code is 10</p>
+            <p>But with</p>
+            <code>
+                float y = 1/2;<br>
+                printf("%4.3f",y);
+            <p>The output will be 0.500</p>
+            </code>
+        </section>
+
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <p>All of the documentation in this page is taken from <a href="https://www.geeksforgeeks.org/introduction-to-c-programming-language/?ref=lbp">geeksforgeeks</a></p>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
